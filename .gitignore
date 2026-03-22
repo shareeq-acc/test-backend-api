@@ -6,10 +6,6 @@ dist/
 build/
 
 # Environment files
-.env
-.env.local
-.env.development
-.env.production
 
 # Logs
 logs/
@@ -24,7 +20,6 @@ yarn-error.log*
 Thumbs.db
 
 # IDE files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -39,3 +34,8 @@ coverage/
 # Temporary files
 tmp/
 temp/
+branch_structure.json
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+config.bat
