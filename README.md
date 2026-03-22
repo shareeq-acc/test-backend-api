@@ -1,4 +1,4 @@
-# my-backend-api
+# Backend API
 
 Backend API generated with **create-tbk-app** using the **full** preset.
 
