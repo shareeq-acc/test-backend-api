@@ -19,6 +19,7 @@ jobs:
               run: pnpm test
 
     deploy:
+        needs: test
         runs-on: ubuntu-latest
         steps:
             - name: Get Repository Code
