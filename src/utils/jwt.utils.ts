@@ -1,7 +1,9 @@
-import { sign, verify } from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
 import config from '../config/env';
 import type { RoleType } from '../enums';
 import logger from '@/plugins/logger';
+
+const { sign, verify } = jwt;
 
 export type JwtPayload = {
   sub: string;
